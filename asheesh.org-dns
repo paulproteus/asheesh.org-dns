@@ -1,13 +1,13 @@
-* 10800 IN A 192.30.252.153
-* 10800 IN A 192.30.252.154
-@ 10800 IN A 130.211.166.109
+* 10800 IN A 130.211.166.109
+@ 10800 IN A 192.30.252.153
+@ 10800 IN A 192.30.252.154
 notifications 10800 IN A 130.211.166.109
 pintle 10800 IN A 104.236.142.151
-www 10800 IN CNAME paulproteus.github.io.
 badgertest 10800 IN CNAME oasis.sandstorm.io.
 eurotrip 10800 IN CNAME rose.makesad.us.
 stuff 10800 IN CNAME ext.squarespace.com.
 svn 10800 IN CNAME rose.makesad.us.
+www 10800 IN CNAME paulproteus.github.io.
 www.eurotrip 10800 IN CNAME rose.makesad.us.
 www.stuff 10800 IN CNAME ext.squarespace.com.
 * 300 IN MX 10 rose.makesad.us.

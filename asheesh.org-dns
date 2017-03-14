@@ -1,8 +1,9 @@
-* 10800 IN A 104.236.142.151
+* 10800 IN A 192.30.252.153
+* 10800 IN A 192.30.252.154
 @ 10800 IN A 130.211.166.109
 notifications 10800 IN A 130.211.166.109
 pintle 10800 IN A 104.236.142.151
-www 10800 IN A 130.211.166.109
+www 10800 IN CNAME paulproteus.github.io.
 badgertest 10800 IN CNAME oasis.sandstorm.io.
 eurotrip 10800 IN CNAME rose.makesad.us.
 stuff 10800 IN CNAME ext.squarespace.com.
@@ -15,10 +16,10 @@ www.stuff 10800 IN CNAME ext.squarespace.com.
 notifications 10800 IN MX 10 rose.makesad.us.
 s 3600 IN MX 10 aspmx1.migadu.com.
 s 3600 IN MX 20 aspmx2.migadu.com.
-default._domainkey.s 3600 IN TXT "v=DKIM1; k=rsa; s=email; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDnN6jxV2YcT3HlI3r274FM+iTLFhJ2ajy1OGklOmFiPsNzy5T7XXlG/pdeK0tzkLhNsZy1UX7L0hwgVWLMmwtFUFh/46NxFLbyjCA/0MapwfUciTv61mSKTh2nmrTXxt9Kekj5dUwPlBf+l9r7ggQ2hkSZNQfZZWtWkcIBps1x/wIDAQAB"
 @ 10800 IN TXT "google-site-verification=vgEJi414GIOP7pqreilxr384pAj7yBAcxGF9LvWx1AQ"
 @ 10800 IN TXT "v=spf1 include:_mailcust.gandi.net ?all"
 caff 10800 IN TXT "v=spf1 include:mailgun.org ~all"
+default._domainkey.s 3600 IN TXT "v=DKIM1; k=rsa; s=email; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDnN6jxV2YcT3HlI3r274FM+iTLFhJ2ajy1OGklOmFiPsNzy5T7XXlG/pdeK0tzkLhNsZy1UX7L0hwgVWLMmwtFUFh/46NxFLbyjCA/0MapwfUciTv61mSKTh2nmrTXxt9Kekj5dUwPlBf+l9r7ggQ2hkSZNQfZZWtWkcIBps1x/wIDAQAB"
 k1._domainkey.notifications 10800 IN TXT "k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC+13NiWlQu/JDwwSPCBPJ0AYw3xEMnGr71/RTP60vhO7uGuGdLMTXttMGMQDy9/1jpyQQNZKNNFf5s+OzRxSYtlb6hEKp5vN+IpRiTbSk8KiyQzzbVbF9fL+6NTPHXPsWtxjMZtKQLzWt6ddrK7AL4LI+LFzGl7BF9uFcvf9EnkQIDAQAB"
 mx._domainkey.caff 10800 IN TXT "k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDws/Z7/9GxzOAd23xcLZlQW7S1v3Nlq7k19cvWuvxxZMbRCfvtcPeYwod6upbJQK7mV+IuKTqdFpYu80Wg4hVG0W+kr48FvySG79pQ0IVL3y3ycRXxXKgOdQezeyCcCMKBLaTd84qheF5METcXuTzXDNE7OoM78JNBNVlm6xE58wIDAQAB"
 notifications 10800 IN TXT "v=spf1 include:mailgun.org ~all"
